@@ -1,0 +1,32 @@
+programa {
+  funcao inicio() {
+    real total, kms, dias
+
+    escreva ("Ao alugar o carro cada dia custará R$90\n")
+
+    escreva ("Cada kms percorrido custa R$0.20\n")
+
+    escreva ("Digite a quantidade de dias alugados: ")
+
+    leia (dias)
+
+    escreva ("Digite a quantidade de km rodados: ")
+
+    leia (kms)
+
+    dias dias * 90
+
+    kms = kms * 0.20
+
+    total = dias + kms
+
+    escreva ("===RECIBO===\n")
+
+    escreva ("\no valor total de dias será de: ", dias)
+
+    escreva ("\no valor total de kms rodados será de:", kms)
+
+    escreva ("\no total a pagar é de: ", total)
+    }
+  }
+}
